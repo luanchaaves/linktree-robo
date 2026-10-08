@@ -2,24 +2,27 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <title>Robô LED Partner | Links Oficiais</title>
   
   <!-- SEO & Meta Tags -->
   <meta name="description" content="O Robô LED que transforma sua festa em espetáculo! Faça sua cotação online, fale no WhatsApp, acesse nosso Instagram e TikTok.">
   <meta name="keywords" content="robo de led, robo led partner, robo led sp, festa com robo de led, robo de led casamento, robo de led debutante">
   <meta name="author" content="Robô LED Partner">
-  <meta name="theme-color" content="#9333ea">
+  <meta name="theme-color" content="#080512">
   
   <!-- Open Graph / WhatsApp Preview -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://roboledpartner.com.br/links">
+  <meta property="og:url" content="https://links.roboledpartner.com.br">
   <meta property="og:title" content="Robô LED Partner | Links Oficiais & Cotação">
   <meta property="og:description" content="🤖 O Robô LED que transforma sua festa em espetáculo! Atendemos SP, ABC e Litoral. Solicite seu orçamento!">
   <meta property="og:image" content="assets/robot-avatar.png">
 
-  <!-- Favicon -->
+  <!-- Favicons & App Icons -->
   <link rel="icon" type="image/png" href="assets/robot-avatar.png">
+  <link rel="apple-touch-icon" href="assets/robot-avatar.png">
 
   <!-- Google Fonts: Orbitron & Plus Jakarta Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,202 +44,217 @@
   <div class="bg-grid-overlay"></div>
 
   <!-- Main Container -->
-  <main class="page-wrapper">
-    
-    <!-- Top Action Bar (Share & QR Code) -->
-    <header class="top-nav">
-      <button id="btnOpenQr" class="nav-icon-btn" title="Exibir QR Code do Perfil" aria-label="Exibir QR Code">
-        <i class="fa-solid fa-qrcode"></i>
-      </button>
-      <div class="brand-tag">
-        <span class="live-dot"></span>
-        <span>OFICIAL</span>
-      </div>
-      <button id="btnShare" class="nav-icon-btn" title="Compartilhar Perfil" aria-label="Compartilhar">
-        <i class="fa-solid fa-arrow-up-from-bracket"></i>
-      </button>
-    </header>
+  <div class="page-container">
+    <main class="page-wrapper">
+      
+      <!-- Top Action Bar (Share & QR Code) -->
+      <header class="top-nav">
+        <button id="btnOpenQr" class="nav-icon-btn" title="Exibir QR Code do Perfil" aria-label="Exibir QR Code">
+          <i class="fa-solid fa-qrcode"></i>
+        </button>
+        <div class="brand-tag">
+          <span class="live-dot"></span>
+          <span>OFICIAL</span>
+        </div>
+        <button id="btnShare" class="nav-icon-btn" title="Compartilhar Perfil" aria-label="Compartilhar">
+          <i class="fa-solid fa-arrow-up-from-bracket"></i>
+        </button>
+      </header>
 
-    <!-- Profile Header Section -->
-    <section class="profile-section">
-      <div class="avatar-container">
-        <div class="avatar-glow-ring"></div>
-        <img src="assets/robot-avatar.png" alt="Robô LED Partner Avatar" class="avatar-img">
-        <span class="status-badge" title="Disponível para eventos">
-          <i class="fa-solid fa-bolt"></i>
-        </span>
-      </div>
+      <!-- Profile Header Section -->
+      <section class="profile-section">
+        <div class="avatar-container">
+          <div class="avatar-glow-ring"></div>
+          <img src="assets/robot-avatar.png" alt="Robô LED Partner Avatar" class="avatar-img">
+          <span class="status-badge" title="Disponível para eventos">
+            <i class="fa-solid fa-bolt"></i>
+          </span>
+        </div>
 
-      <div class="profile-info">
-        <h1 class="brand-title">
-          ROBÔ LED PARTNER
-          <i class="fa-solid fa-circle-check verified-icon" title="Perfil Verificado"></i>
-        </h1>
-        <p class="brand-handle">@roboledpartner</p>
-        
-        <p class="brand-bio">
-          🤖 O Robô LED que transforma sua festa em <strong>espetáculo!</strong><br>
-          ✨ Aniversários • Casamentos • Debutantes • Corporativos<br>
-          📍 Atendemos em <strong>SP, ABC e Litoral</strong>
+        <div class="profile-info">
+          <h1 class="brand-title">
+            <span>ROBÔ LED PARTNER</span>
+            <i class="fa-solid fa-circle-check verified-icon" title="Perfil Verificado"></i>
+          </h1>
+          <p class="brand-handle">@roboledpartner</p>
+          
+          <p class="brand-headline">
+            🤖 O Robô LED que transforma sua festa em <strong>espetáculo!</strong>
+          </p>
+
+          <!-- Categorias / Tags de Eventos -->
+          <div class="event-tags-list">
+            <span class="event-tag"><i class="fa-solid fa-champagne-glasses"></i> Casamentos</span>
+            <span class="event-tag"><i class="fa-solid fa-crown"></i> Debutantes</span>
+            <span class="event-tag"><i class="fa-solid fa-cake-candles"></i> Aniversários</span>
+            <span class="event-tag"><i class="fa-solid fa-building"></i> Corporativos</span>
+          </div>
+
+          <p class="brand-location">
+            <i class="fa-solid fa-location-dot"></i> Atendemos em <strong>SP, ABC e Litoral</strong>
+          </p>
+
+          <!-- Social Quick Bar -->
+          <div class="social-quick-bar">
+            <a href="https://api.whatsapp.com/send/?phone=11919973647&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" class="social-chip chip-whatsapp" title="Conversar no WhatsApp" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://www.instagram.com/roboledpartner/" target="_blank" rel="noopener noreferrer" class="social-chip chip-instagram" title="Seguir no Instagram" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@robo.led.partner?_r=1&_t=ZS-9AOKGVxGiP7" target="_blank" rel="noopener noreferrer" class="social-chip chip-tiktok" title="Assistir no TikTok" aria-label="TikTok">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a href="mailto:roboledpartner@gmail.com" class="social-chip chip-email" title="Enviar E-mail de Parceria" aria-label="E-mail">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Links List Section -->
+      <section class="links-container">
+
+        <!-- 1. COTAÇÃO ONLINE (Featured CTA) -->
+        <a href="https://cotacao.roboledpartner.com.br/" target="_blank" rel="noopener noreferrer" class="link-card link-featured" data-link="cotacao">
+          <div class="featured-badge">⚡ DESTAQUE • ORÇAMENTO RÁPIDO</div>
+          <div class="link-content">
+            <div class="link-icon pulse-icon">
+              <i class="fa-solid fa-calculator"></i>
+            </div>
+            <div class="link-text">
+              <h3>Sistema de Cotação Online</h3>
+              <p>Calcule o valor do show para sua data em segundos</p>
+            </div>
+            <div class="link-arrow">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </a>
+
+        <!-- 2. SITE OFICIAL -->
+        <a href="https://roboledpartner.com.br/" target="_blank" rel="noopener noreferrer" class="link-card" data-link="site">
+          <div class="link-content">
+            <div class="link-icon icon-site">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="link-text">
+              <h3>Site Oficial</h3>
+              <p>Conheça nossa estrutura, pacotes e atrações</p>
+            </div>
+            <div class="link-arrow">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </a>
+
+        <!-- 3. WHATSAPP DIRETO -->
+        <a href="https://api.whatsapp.com/send/?phone=11919973647&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" class="link-card" data-link="whatsapp">
+          <div class="link-content">
+            <div class="link-icon icon-whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div class="link-text">
+              <div class="title-with-badge">
+                <h3>Fale no WhatsApp</h3>
+                <span class="link-badge">ONLINE</span>
+              </div>
+              <p>Tire dúvidas e consulte disponibilidade de datas</p>
+            </div>
+            <div class="link-arrow">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </a>
+
+        <!-- 4. INSTAGRAM -->
+        <a href="https://www.instagram.com/roboledpartner/" target="_blank" rel="noopener noreferrer" class="link-card" data-link="instagram">
+          <div class="link-content">
+            <div class="link-icon icon-instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="link-text">
+              <h3>Siga no Instagram</h3>
+              <p>@roboledpartner • Vídeos, bastidores e novidades</p>
+            </div>
+            <div class="link-arrow">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </a>
+
+        <!-- 5. TIKTOK -->
+        <a href="https://www.tiktok.com/@robo.led.partner?_r=1&_t=ZS-9AOKGVxGiP7" target="_blank" rel="noopener noreferrer" class="link-card" data-link="tiktok">
+          <div class="link-content">
+            <div class="link-icon icon-tiktok">
+              <i class="fa-brands fa-tiktok"></i>
+            </div>
+            <div class="link-text">
+              <h3>Assista no TikTok</h3>
+              <p>@robo.led.partner • Melhores momentos das festas</p>
+            </div>
+            <div class="link-arrow">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </a>
+
+        <!-- 6. SALVAR CONTATO (vCard Download) -->
+        <button id="btnSaveContact" class="link-card action-card" data-link="vcard" type="button">
+          <div class="link-content">
+            <div class="link-icon icon-contact">
+              <i class="fa-solid fa-address-card"></i>
+            </div>
+            <div class="link-text">
+              <h3>Salvar Contato na Agenda</h3>
+              <p>Adicione o Robô LED Partner direto no seu celular</p>
+            </div>
+            <div class="link-arrow">
+              <i class="fa-solid fa-download"></i>
+            </div>
+          </div>
+        </button>
+
+      </section>
+
+      <!-- Visual Mascot Banner (Character Display) -->
+      <section class="mascot-section">
+        <div class="mascot-card">
+          <div class="mascot-info">
+            <h4>Leve a energia do Robô LED</h4>
+            <p>Efeitos de luz neon, CO2, animação de pista e muito mais!</p>
+            <a href="https://cotacao.roboledpartner.com.br/" target="_blank" rel="noopener noreferrer" class="mascot-cta-btn">
+              <span>Garantir Minha Data</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+          <div class="mascot-img-wrap">
+            <img src="assets/robot-full.png" alt="Robô LED Partner Completo" class="mascot-img" loading="lazy">
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="page-footer">
+        <div class="footer-logo">
+          <img src="assets/logo-full.png" alt="Logo Robô LED Partner" class="footer-logo-img" loading="lazy">
+        </div>
+        <p class="footer-contact">
+          <i class="fa-regular fa-envelope"></i> Parcerias: <a href="mailto:roboledpartner@gmail.com">roboledpartner@gmail.com</a>
         </p>
+        <p class="footer-copyright">
+          © <span id="currentYear"></span> Robô LED Partner • Todos os direitos reservados
+        </p>
+        <p class="footer-powered">
+          <span class="neon-text-glow">roboledpartner.com.br</span>
+        </p>
+      </footer>
 
-        <!-- Social Quick Bar -->
-        <div class="social-quick-bar">
-          <a href="https://api.whatsapp.com/send/?phone=11919973647&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" class="social-chip chip-whatsapp" title="WhatsApp">
-            <i class="fa-brands fa-whatsapp"></i>
-          </a>
-          <a href="https://www.instagram.com/roboledpartner/" target="_blank" rel="noopener noreferrer" class="social-chip chip-instagram" title="Instagram">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a href="https://www.tiktok.com/@robo.led.partner?_r=1&_t=ZS-9AOKGVxGiP7" target="_blank" rel="noopener noreferrer" class="social-chip chip-tiktok" title="TikTok">
-            <i class="fa-brands fa-tiktok"></i>
-          </a>
-          <a href="mailto:roboledpartner@gmail.com" class="social-chip chip-email" title="Email de Contato">
-            <i class="fa-regular fa-envelope"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Links List Section -->
-    <section class="links-container">
-
-      <!-- 1. COTAÇÃO ONLINE (Featured CTA) -->
-      <a href="https://cotacao.roboledpartner.com.br/" target="_blank" rel="noopener noreferrer" class="link-card link-featured" data-link="cotacao">
-        <div class="featured-badge">⚡ DESTAQUE • ORÇAMENTO RÁPIDO</div>
-        <div class="link-content">
-          <div class="link-icon pulse-icon">
-            <i class="fa-solid fa-calculator"></i>
-          </div>
-          <div class="link-text">
-            <h3>Sistema de Cotação Online</h3>
-            <p>Calcule o valor do show para o seu evento em segundos</p>
-          </div>
-          <div class="link-arrow">
-            <i class="fa-solid fa-chevron-right"></i>
-          </div>
-        </div>
-      </a>
-
-      <!-- 2. SITE OFICIAL -->
-      <a href="https://roboledpartner.com.br/" target="_blank" rel="noopener noreferrer" class="link-card" data-link="site">
-        <div class="link-content">
-          <div class="link-icon icon-site">
-            <i class="fa-solid fa-globe"></i>
-          </div>
-          <div class="link-text">
-            <h3>Site Oficial</h3>
-            <p>Conheça nossa estrutura, fotos e atrações</p>
-          </div>
-          <div class="link-arrow">
-            <i class="fa-solid fa-chevron-right"></i>
-          </div>
-        </div>
-      </a>
-
-      <!-- 3. WHATSAPP DIRETO -->
-      <a href="https://api.whatsapp.com/send/?phone=11919973647&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" class="link-card" data-link="whatsapp">
-        <div class="link-content">
-          <div class="link-icon icon-whatsapp">
-            <i class="fa-brands fa-whatsapp"></i>
-          </div>
-          <div class="link-text">
-            <h3>Fale no WhatsApp</h3>
-            <p>Tire dúvidas e consulte disponibilidade de datas</p>
-          </div>
-          <div class="link-badge">ONLINE</div>
-          <div class="link-arrow">
-            <i class="fa-solid fa-chevron-right"></i>
-          </div>
-        </div>
-      </a>
-
-      <!-- 4. INSTAGRAM -->
-      <a href="https://www.instagram.com/roboledpartner/" target="_blank" rel="noopener noreferrer" class="link-card" data-link="instagram">
-        <div class="link-content">
-          <div class="link-icon icon-instagram">
-            <i class="fa-brands fa-instagram"></i>
-          </div>
-          <div class="link-text">
-            <h3>Siga no Instagram</h3>
-            <p>@roboledpartner • Vídeos, bastidores e novidades</p>
-          </div>
-          <div class="link-arrow">
-            <i class="fa-solid fa-chevron-right"></i>
-          </div>
-        </div>
-      </a>
-
-      <!-- 5. TIKTOK -->
-      <a href="https://www.tiktok.com/@robo.led.partner?_r=1&_t=ZS-9AOKGVxGiP7" target="_blank" rel="noopener noreferrer" class="link-card" data-link="tiktok">
-        <div class="link-content">
-          <div class="link-icon icon-tiktok">
-            <i class="fa-brands fa-tiktok"></i>
-          </div>
-          <div class="link-text">
-            <h3>Assista no TikTok</h3>
-            <p>@robo.led.partner • Melhores momentos das festas</p>
-          </div>
-          <div class="link-arrow">
-            <i class="fa-solid fa-chevron-right"></i>
-          </div>
-        </div>
-      </a>
-
-      <!-- 6. SALVAR CONTATO (vCard Download) -->
-      <button id="btnSaveContact" class="link-card action-card" data-link="vcard">
-        <div class="link-content">
-          <div class="link-icon icon-contact">
-            <i class="fa-solid fa-address-card"></i>
-          </div>
-          <div class="link-text">
-            <h3>Salvar Contato na Agenda</h3>
-            <p>Adicione o Robô LED Partner direto no seu celular</p>
-          </div>
-          <div class="link-arrow">
-            <i class="fa-solid fa-download"></i>
-          </div>
-        </div>
-      </button>
-
-    </section>
-
-    <!-- Visual Mascot Banner (Character Display) -->
-    <section class="mascot-section">
-      <div class="mascot-card">
-        <div class="mascot-info">
-          <h4>Leve a energia do Robô LED</h4>
-          <p>Efeitos de luz neon, CO2, animação de pista e muito mais!</p>
-          <a href="https://cotacao.roboledpartner.com.br/" target="_blank" class="mascot-cta-btn">
-            Garantir Minha Data <i class="fa-solid fa-arrow-right"></i>
-          </a>
-        </div>
-        <div class="mascot-img-wrap">
-          <img src="assets/robot-full.png" alt="Robô LED Partner Completo" class="mascot-img">
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="page-footer">
-      <div class="footer-logo">
-        <img src="assets/logo-full.png" alt="Logo Robô LED Partner" class="footer-logo-img">
-      </div>
-      <p class="footer-contact">
-        <i class="fa-regular fa-envelope"></i> Parcerias: <a href="mailto:roboledpartner@gmail.com">roboledpartner@gmail.com</a>
-      </p>
-      <p class="footer-copyright">
-        © <span id="currentYear"></span> Robô LED Partner • Todos os direitos reservados
-      </p>
-      <p class="footer-powered">
-        <span class="neon-text-glow">roboledpartner.com.br</span>
-      </p>
-    </footer>
-
-  </main>
+    </main>
+  </div>
 
   <!-- Modal: QR Code -->
-  <div id="qrModal" class="modal-overlay" aria-hidden="true">
+  <div id="qrModal" class="modal-overlay" aria-hidden="true" role="dialog" aria-modal="true">
     <div class="modal-box">
       <button id="btnCloseQr" class="modal-close" aria-label="Fechar Modal">
         <i class="fa-solid fa-xmark"></i>
@@ -250,15 +268,16 @@
         <img id="qrImage" src="" alt="QR Code Robô LED Partner" class="qr-code-img">
       </div>
       <div class="modal-actions">
-        <button id="btnCopyPageLink" class="modal-btn">
-          <i class="fa-solid fa-copy"></i> Copiar Link
+        <button id="btnCopyPageLink" class="modal-btn" type="button">
+          <i class="fa-solid fa-copy"></i>
+          <span>Copiar Link</span>
         </button>
       </div>
     </div>
   </div>
 
   <!-- Toast Notification -->
-  <div id="toastNotification" class="toast-box">
+  <div id="toastNotification" class="toast-box" role="status" aria-live="polite">
     <i class="fa-solid fa-circle-check"></i>
     <span id="toastMessage">Link copiado com sucesso!</span>
   </div>
